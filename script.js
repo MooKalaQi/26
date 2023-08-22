@@ -5,7 +5,7 @@ const nav = document.querySelector(".top");
 function handleEnter(){
     this.classList.add("trigger-enter");
     setTimeout(()=> {
-        if(this.classList.contains("trigger-enter")){ل
+        if(this.classList.contains("trigger-enter")){
             this.classList.add("trigger-enter-active")
         }
     }, 150)
